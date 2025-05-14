@@ -74,7 +74,7 @@ variable "dns_ips" {
 
 variable "domain_name" {
   description = "Domain Name of the ActiveDirectoryConfiguration"
-  default     = "corp.example.com"
+  default     = "example.com"
 }
 
 variable "OrganizationalUnitDistinguishedName" {
